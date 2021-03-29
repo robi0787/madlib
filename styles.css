@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: cadetblue;
+}
+
+#title-main {
+    margin: auto;
+    padding: 2rem;
+    font-size: 45px;
+}
+span {
+    text-decoration: underline;
+}
+
+#container {
+    width: auto;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.storyButton {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+#readStory {
+    width: 60%;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+.textBox {
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    border-style: outset;  
+}
+
+ #story-form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.disappear {
+    display: none;
+
+}
+
+@media (min-width: 768px) {
+    #container {
+        width: 80%;
+
+    }
+    .textBox {
+        font-size: 25px;
+        margin: auto;
+        width: 80%;
+    }
+    #readStory {
+        width: 80%;
+        padding: 1rem;
+        font-size: 25px;
+    }
+}    
+@media (min-width: 1440px) {
+    #container {
+        width: 1100px;
+    
+    }
+    .textBox {
+        font-size: 30px;
+        margin: auto;
+        width: 80%;
+    }
+    #readStory {
+        width: 80%;
+        padding: 1rem;
+        font-size: 30px;
+    }
+}
