@@ -65,6 +65,14 @@ p {
         width: 80%;
 
     }
+    p {
+        font-size: 25px;
+    }
+    #startNewStory{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 30px;
+    }
     .textBox {
         font-size: 25px;
         margin: auto;
@@ -75,20 +83,39 @@ p {
         padding: 1rem;
         font-size: 25px;
     }
+    #story1, #story2, #story3 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 25px;
+    }
+
 }    
 @media (min-width: 1440px) {
     #container {
         width: 1100px;
     
     }
+    #story1, #story2, #story3 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 30px;
+    }
     .textBox {
         font-size: 30px;
         margin: auto;
         width: 80%;
     }
+    p {
+        font-size: 35px;
+    }
     #readStory {
         width: 80%;
         padding: 1rem;
         font-size: 30px;
+    }
+    #startNewStory{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 35px;
     }
 }
